@@ -1,0 +1,31 @@
+/* Aplica estilos globales por defecto recomendados. */
+@import 'normalize.css/normalize.css';
+
+/**
+ * Aplica border-box como modelo de tamaño caja a todos los elementos.
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/**
+ * html
+ *
+ * 1 - Hace que el elemento html abarque toda la altura del viewport.
+ * 2 - Ajusta el tamaño de fuente al 100% del definido por el navegador
+ *     (16px por lo general).
+ */
+html {
+  height: 100%; /* 1 */
+  font-size: 100%; /* 2 */
+}
+
+/**
+ * body
+ */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}

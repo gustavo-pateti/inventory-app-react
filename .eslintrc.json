@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/all",
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "react/react-in-jsx-scope": ["off"],
+    "react/boolean-prop-naming": ["off"],
+    "react/default-props-match-prop-types": ["off"],
+    "react/destructuring-assignment": ["off"],
+    "react/forbid-component-props": ["off"],
+    "react/forbid-dom-props": ["off"],
+    "react/forbid-elements": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "react/function-component-definition": ["off"],
+    "react/no-adjacent-inline-elements": ["off"],
+    "react/require-default-props": ["off"],
+    "react/self-closing-comp": ["off"],
+    "react/sort-comp": ["off"],
+    "react/sort-prop-types": ["off"],
+    "react/jsx-child-element-spacing": ["off"],
+    "react/jsx-curly-newline": ["off"],
+    "react/jsx-filename-extension": ["off"],
+    "react/jsx-indent": ["warn", 2],
+    "react/jsx-indent-props": ["warn", 2],
+    "react/jsx-max-depth": ["off"],
+    "react/jsx-newline": ["off"],
+    "react/jsx-no-literals": ["off"],
+    "react/jsx-one-expression-per-line": ["off"],
+    "react/jsx-sort-default-props": ["off"],
+    "react/jsx-sort-props": ["off"],
+    "react/jsx-space-before-closing": ["off"],
+    "react/jsx-no-bind": ["off"]
+  }
+}
